@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "The Bootstrap Authors And Abolfazl Rezvani"
+  },
+  "description": "Bootstrap grid extension base on material.io breakpoints and grid layouts",
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "bootstrap",
+    "grid"
+  ],
+  "main": "dist/js/bootstrap-grid",
+  "name": "bootstrap-material",
+  "scripts": {
+    "build": "sass scss/bootstrap-grid.scss:css/bootstrap-grid-extension.min.css --style compressed"
+  },
+  "style": "dist/css/bootstrap.css",
+  "version": "4.1.51"
+}
